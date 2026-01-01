@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: database
-        image: avian19/mysql-mern:2
+        image: jayanth5151/database:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 3306

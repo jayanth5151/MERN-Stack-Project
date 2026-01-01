@@ -18,7 +18,7 @@ spec:
     spec: 
       containers:
       - name: frontend
-        image: avian19/frontend-mern:8
+        image: jayanth5151/frontend:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
